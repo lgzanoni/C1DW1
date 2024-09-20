@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #390d44;
+    color: #333;
+}
+
+header {
+    background-color: #390d44;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+#home {
+    background-color: #390d44;
+    color: white;
+}
+
+#sobre,
+#projetos,
+#contato {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+}
+
+.projeto {
+    margin: 20px 0;
+}
+
+.foto-perfil {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.foto-perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 75%;
+}
+
+.habilidades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.habilidades img {
+    width: 50px;
+    height: 50px;
+}
+
+.projeto a {
+    color: #1e90ff;
+    text-decoration: none;
+}
+
+.projeto a:hover {
+    text-decoration: underline;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+footer {
+    background-color: #390d44;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
